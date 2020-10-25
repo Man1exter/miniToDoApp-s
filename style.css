@@ -70,7 +70,7 @@ button:hover{
 10%{left: 70%; top: 10%;}
 20%{left: 50%; top: 10%;}
 40%{left: 20%; top: 10%;}
-60%{left: 0%; top: 0%;}
+60%{left: 0%; top: 0%; transform: rotate(980deg);}
 80%{left: 50%; top: 0%;}
 100%{left: 90%; top: 0%;}
 }
