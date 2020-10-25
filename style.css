@@ -22,5 +22,7 @@ body{
 li{
     border: 1px solid black;
     height: 50px;
-    text-transform: none;
+    list-style: none;
+    background: linear-gradient(to top,lightblue,green);
+    border-radius: 2px;
 }
