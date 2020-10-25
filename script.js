@@ -12,6 +12,8 @@ const deleteAll = (e) => {
 
 const acceptAll = (e) => {
     e.target.parentNode.style.color = "gray";
+    e.target.parentNode.style.fontSize = 10 + "px";
+    e.target.parentNode.style.lineHeight = 60 + "px";
 }
 
 
