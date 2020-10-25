@@ -25,4 +25,18 @@ li{
     list-style: none;
     background: linear-gradient(to top,lightblue,green);
     border-radius: 2px;
+    font-size: 45px;
+    cursor: pointer;
+    margin-top: 5px;
+    animation: moveColor 3s linear infinite;
+}
+
+@keyframes moveColor {
+    0%{ background: linear-gradient(to top,lightblue,lightgreen);}
+    10%{ background: linear-gradient(to top,rgb(120, 200, 226),rgb(2, 173, 2));}
+    20%{ background: linear-gradient(to top,rgb(82, 187, 223),rgb(1, 70, 1));}
+    40%{ background: linear-gradient(to top,rgb(3, 85, 112),rgb(36, 182, 36));}
+    60%{ background: linear-gradient(to top,rgb(16, 86, 109),green);}
+    80%{ background: linear-gradient(to top,rgb(24, 176, 226),rgb(47, 202, 47));}
+    100%{ background: linear-gradient(to top,rgb(2, 188rgb(2, 250, 2)),green);}
 }
