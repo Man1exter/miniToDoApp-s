@@ -29,14 +29,15 @@ li{
     cursor: pointer;
     margin-top: 5px;
     animation: moveColor 3s linear infinite;
+    text-align: center;
 }
 
 @keyframes moveColor {
     0%{ background: linear-gradient(to top,lightblue,lightgreen);}
     10%{ background: linear-gradient(to top,rgb(120, 200, 226),rgb(2, 173, 2));}
-    20%{ background: linear-gradient(to top,rgb(82, 187, 223),rgb(1, 70, 1));}
-    40%{ background: linear-gradient(to top,rgb(3, 85, 112),rgb(36, 182, 36));}
-    60%{ background: linear-gradient(to top,rgb(16, 86, 109),green);}
+    20%{ background: linear-gradient(to top,rgb(82, 187, 223),rgb(43, 196, 43));}
+    40%{ background: linear-gradient(to top,rgb(32, 162, 206),rgb(36, 182, 36));}
+    60%{ background: linear-gradient(to top,rgb(57, 177, 218)rgb(15, 224, 15)n);}
     80%{ background: linear-gradient(to top,rgb(24, 176, 226),rgb(47, 202, 47));}
     100%{ background: linear-gradient(to top,rgb(2, 188rgb(2, 250, 2)),green);}
 }
