@@ -13,7 +13,7 @@ body{
     width: 30%;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 70%;
     transform: translate(-50%,-50%);
     border-radius: 10px;
     background: linear-gradient(to left,blue,green,yellow);
@@ -63,6 +63,7 @@ button:hover{
     position: absolute;
     left: 90%;
     animation: eleMove 5s linear infinite;
+    z-index: 2;
 }
 
 @keyframes eleMove {
@@ -70,8 +71,35 @@ button:hover{
 10%{left: 70%; top: 10%;}
 20%{left: 50%; top: 10%;}
 40%{left: 20%; top: 10%;}
-60%{left: 0%; top: 0%; transform: rotate(980deg);}
+60%{left: 0%; top: 0%; transform: rotate(900deg);}
 80%{left: 50%; top: 0%;}
 100%{left: 90%; top: 0%;}
 }
-
+.search{
+    border: 5px solid black;
+    height: 50%;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    background: linear-gradient(to left,blue,green,yellow);
+}
+input{
+    width: 70%;
+    height: 10%;
+    border: 3px solid yellow;
+    margin-left: 15%;
+    margin-top: 5%;
+    cursor: pointer;
+    background-color: black;
+    font-size: 30px;
+    transition: .4s linear;
+    color: white;
+}
+input:hover{
+    background-color: #fff;
+    border: 3px solid black;
+    color: black;
+}
