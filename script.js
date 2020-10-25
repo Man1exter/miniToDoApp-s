@@ -11,7 +11,7 @@ const deleteAll = (e) => {
 }
 
 const acceptAll = (e) => {
-    e.target.parentNode.style.textDecoration = "line-through";
+    e.target.parentNode.style.color = "gray";
 }
 
 
