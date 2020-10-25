@@ -30,6 +30,8 @@ li{
     margin-top: 5px;
     animation: moveColor 3s linear infinite;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 @keyframes moveColor {
@@ -40,4 +42,12 @@ li{
     60%{ background: linear-gradient(to top,rgb(57, 177, 218)rgb(15, 224, 15)n);}
     80%{ background: linear-gradient(to top,rgb(24, 176, 226),rgb(47, 202, 47));}
     100%{ background: linear-gradient(to top,rgb(2, 188rgb(2, 250, 2)),green);}
+}
+button{
+    font-size: 30px;
+    margin-top: -5px;
+    cursor: pointer;
+    height: 50px;
+    width: 90px;
+    margin-top: 0px;
 }
