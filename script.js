@@ -1,5 +1,5 @@
 const $mainUl = document.querySelector("ul");
-const $liElement = document.querySelector("li");
+const $liElement = document.querySelectorAll("li");
 const $buttonAcc = document.querySelector(".a1");
 const $buttonDel = document.querySelector(".b1");
 
@@ -20,18 +20,18 @@ const acceptAll = (e) => {
 
 const searchTask = (e) => {
 
-  searchItem = e.target.value.toLowerCase(); 
+  const searchItem = e.target.value.toLowerCase(); 
   let task = [...$liElement];
 
   task = task.filter(li => li.textContent.toLowerCase().includes(searchItem));
 
   $mainUl.textContent = '';
-  task.forEach(li => ul.appendChild(li));
+  task.forEach(li => $mainUl.appendChild(li));
 };
 
 
 
-document.addEventListener("input", searchTask);
+$input.addEventListener("input", searchTask);
 
 document.querySelectorAll("button.b1").forEach(ele => ele.addEventListener("click", deleteAll));
 document.querySelectorAll("button.a1").forEach(ele => ele.addEventListener("click", acceptAll));

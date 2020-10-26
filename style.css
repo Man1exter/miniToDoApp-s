@@ -104,6 +104,7 @@ input{
     font-size: 30px;
     transition: .4s linear;
     color: white;
+    border-radius: 10px;
 }
 
 input:hover{
