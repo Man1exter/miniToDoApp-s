@@ -3,7 +3,7 @@ const $liElement = document.querySelector("li");
 const $buttonAcc = document.querySelector(".a1");
 const $buttonDel = document.querySelector(".b1");
 
-
+const $input = document.querySelector("input");
 
 
 const deleteAll = (e) => {
@@ -16,6 +16,11 @@ const acceptAll = (e) => {
     e.target.parentNode.style.lineHeight = 60 + "px";
 }
 
+
+
+
+
+document.addEventListener("input", searchTask);
 
 document.querySelectorAll("li button.b1").forEach(ele => ele.addEventListener("click", deleteAll));
 document.querySelectorAll("li button.a1").forEach(ele => ele.addEventListener("click", acceptAll));
