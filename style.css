@@ -112,3 +112,9 @@ input:hover{
     border: 3px solid black;
     color: black;
 }
+.warn{
+    font-size: 100px;
+    text-align: center;
+    line-height: 300%;
+    color: red;
+}

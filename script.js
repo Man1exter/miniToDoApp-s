@@ -5,7 +5,6 @@ const $buttonDel = document.querySelector(".b1");
 
 const $input = document.querySelector("input");
 
-
 const deleteAll = (e) => {
 
     e.target.parentNode.remove()
@@ -27,8 +26,8 @@ const searchTask = (e) => {
 
   $mainUl.textContent = '';
   task.forEach(li => $mainUl.appendChild(li));
-};
 
+}
 
 
 $input.addEventListener("input", searchTask);
