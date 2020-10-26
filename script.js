@@ -7,7 +7,7 @@ const $input = document.querySelector("input");
 
 
 const deleteAll = (e) => {
-    
+
     e.target.parentNode.remove()
 }
 
@@ -33,5 +33,5 @@ const searchTask = (e) => {
 
 document.addEventListener("input", searchTask);
 
-document.querySelectorAll("li button.b1").forEach(ele => ele.addEventListener("click", deleteAll));
-document.querySelectorAll("li button.a1").forEach(ele => ele.addEventListener("click", acceptAll));
+document.querySelectorAll("button.b1").forEach(ele => ele.addEventListener("click", deleteAll));
+document.querySelectorAll("button.a1").forEach(ele => ele.addEventListener("click", acceptAll));
