@@ -5,6 +5,8 @@ const $buttonDel = document.querySelector(".b1");
 
 const $input = document.querySelector("input");
 
+const $howHow = document.querySelector('span');
+
 const deleteAll = (e) => {
 
     e.target.parentNode.remove()
