@@ -32,11 +32,12 @@ const searchTask = (e) => {
 
 }
 
-const showMe = () => {
+const showMe = (e) => {
+  e.preventDefault();
   $howHow.textContent = $liElement.length;
 }
 
-$howMany.addEventListener("click", showMe)
+$howMany.addEventListener("click", showMe);
 
 $input.addEventListener("input", searchTask);
 
