@@ -116,11 +116,11 @@ input:hover{
 .how{
     font-size: 50px;
     margin-left: 10%;
-    margin-top: 20%;
+    margin-top: 5%;
 }
 span{
     color: white;
-    margin-left: 40%;
+    margin-left: 35%;
     font-size: 150px;
     animation: colorFull 5s linear infinite;
 }
@@ -133,4 +133,11 @@ span{
     60%{color: aqua;}
     80%{color: brown;}
     100%{color: cadetblue;}
+}
+.howMany{
+    margin-left: 35%;
+    margin-top: 5%;
+    font-size: 50px;
+    width: 180px;
+    height: 60px;
 }
