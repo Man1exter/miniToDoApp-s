@@ -27,6 +27,7 @@ const searchTask = (e) => {
   $mainUl.textContent = '';
   task.forEach(li => $mainUl.appendChild(li));
 
+  
 }
 
 
