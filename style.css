@@ -10,10 +10,10 @@ body{
 }
 .square{
     border: 5px solid black;
-    height: 50%;
+    height: 92%;
     width: 30%;
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 70%;
     transform: translate(-50%,-50%);
     border-radius: 10px;
