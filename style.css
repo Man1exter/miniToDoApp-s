@@ -122,4 +122,15 @@ span{
     color: white;
     margin-left: 40%;
     font-size: 150px;
+    animation: colorFull 5s linear infinite;
+}
+
+@keyframes colorFull {
+    0%{color: white;}
+    10%{color: yellow;}
+    20%{color: red;}
+    40%{color: violet;}
+    60%{color: aqua;}
+    80%{color: brown;}
+    100%{color: cadetblue;}
 }
