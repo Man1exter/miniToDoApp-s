@@ -140,4 +140,9 @@ span{
     font-size: 50px;
     width: 250px;
     height: 60px;
+    box-shadow: 1px 3px 36px 19px rgba(0,0,0,0.77);
+    transition: .5s linear;
+}
+.howMany:hover{
+    box-shadow: 1px 3px 26px 29px rgba(0,0,0,0.97);
 }
