@@ -112,3 +112,14 @@ input:hover{
     border: 3px solid black;
     color: black;
 }
+
+.how{
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+span{
+    color: white;
+    margin-left: 40%;
+    font-size: 150px;
+}
