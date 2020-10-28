@@ -9,6 +9,8 @@ const $howHow = document.querySelector('span');
 const $howMany = document.querySelector(".howMany");
 
 
+
+
 const deleteAll = (e) => {
     e.target.parentNode.remove()
     $howHow.textContent = $liElement.length;
@@ -38,6 +40,11 @@ const showMe = (e) => {
   e.preventDefault();
   $howHow.textContent = $liElement.length;
 }
+
+
+
+
+
 
 $howMany.addEventListener("click", showMe);
 
