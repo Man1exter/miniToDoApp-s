@@ -44,8 +44,6 @@ const showMe = (e) => {
 
 
 
-
-
 $howMany.addEventListener("click", showMe);
 
 $input.addEventListener("input", searchTask);
