@@ -1,3 +1,4 @@
+////////////////////////////////////////
 const $mainUl = document.querySelector("ul");
 const $liElement = document.querySelectorAll("li");
 const $buttonAcc = document.querySelector(".a1");
